@@ -67,10 +67,11 @@ button{
 
 .pane-test{
   position: absolute;
-  height:720px;
-  width: 150px;
-  left: 10%;
-  top: 100px;
+  height:150px;
+  width: 1080px;
+  left: 50%;
+  transform:translateX(-50%);
+  top: 10px;
 }
 
 /* ------------ LOCK BANNER ------------ */
