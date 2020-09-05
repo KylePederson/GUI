@@ -1,0 +1,235 @@
+
+/* ------------ GENERAL ------------ */
+
+body{
+  background-color: black;
+}
+
+div, body, img{
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.invis{
+  opacity:0.7;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  user-select: none;
+}
+
+p{
+  padding:5px;
+}
+
+button{
+  width:120px;
+  margin:10px;
+  left:50%;
+}
+
+/* ------------ PANES ------------ */
+
+.pane-active{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  background-color: grey;
+  height:720px;
+  width:1080px;
+  top:100px;
+}
+
+.pane-blur{
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  filter:blur(5px);
+}
+
+.pane-l{
+    position:absolute;
+    height:720px;
+    width:50px;
+}
+
+.pane-r{
+    position:absolute;
+    height:720px;
+    width:50px;
+    left:100%;
+    transform:translateX(-100%);
+}
+
+.pane-test{
+  position: absolute;
+  height:720px;
+  width: 150px;
+  left: 10%;
+  top: 100px;
+}
+
+/* ------------ LOCK BANNER ------------ */
+
+.banner-0{
+  position:absolute;
+  width:1080px;
+  height:200px;
+  background-color: black;
+  opacity: 0.8;
+  transform:translateY(-100%);
+}
+
+.banner-1{
+  position:absolute;
+  height:200px;
+  width: 530px;
+}
+
+.banner-2{
+  position:absolute;
+  height:200px;
+  width: 530px;
+  left:100%;
+  transform: translateX(-100%);
+}
+
+.banner-3{
+  position:absolute;
+  margin: 10px;
+  color:white;
+  height:40%;
+  width: 100%;
+}
+
+.banner-4{
+  position:absolute;
+  margin: 10px;
+  color:white;
+  height:60%;
+  width: 100%;
+  top:100%;
+  transform:translateY(-100%);
+}
+
+.banner-5{
+  position:absolute;
+  margin: 10px;
+  color:skyblue;
+  height:40%;
+  width: 100%;
+}
+
+.banner-6{
+  position:absolute;
+  margin: 10px;
+  color:white;
+  height:60%;
+  width: 100%;
+  top:100%;
+  transform:translateY(-100%);
+}
+
+.key{
+  color:orange;
+}
+
+/* ------------ LEFT MENU ------------ */
+
+.menu-hover{
+  background-color: gray;
+  color:black;
+}
+
+.menu-l-0{
+  position:absolute;
+  height:720px;
+  width: 200px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.menu-l-1, .menu-l-2, .menu-l-3, .menu-l-4{
+
+  color:white;
+  width:170px;
+  height: 30px;
+  border-radius:15px;
+  text-align: right;
+}
+
+.menu-l-s-0{
+  position:absolute;
+  background-color: black;
+  height:720px;
+  width:200px;
+  left:200px;
+  opacity: 0.8;
+}
+
+/* ------------ RIGHT MENU ------------ */
+
+.menu-r-0{
+  position:absolute;
+  height:720px;
+  width: 200px;
+  background-color: black;
+  left:100%;
+  transform:translateX(-100%);
+  opacity: 0.8;
+}
+
+.menu-r-1, .menu-r-2, .menu-r-3, .menu-r-4{
+  color:white;
+  width:170px;
+  height: 30px;
+  border-radius:15px;
+  text-align: left;
+}
+
+.menu-r-s-0{
+  position:absolute;
+  background-color: black;
+  height:720px;
+  width:200px;
+  left:100%;
+  transform: translateX(-400px);
+  opacity: 0.8;
+}
+
+/* ------------ EVENTS ------------ */
+
+.eventsList{
+  height:auto;
+  width:auto;
+}
+.event{
+  position:absolute;
+  background-color: black;
+  color:white;
+  opacity:.7;
+  margin: 5px 0 5px 0;
+  width:90%;
+  left:50%;
+  transform: translateX(-50%);
+  height: 30px;
+
+}
+
+.eventElement{
+  float: left;
+  width:20%;
+  text-align: center;
+}
+.event:hover{
+  background-color: white;
+  color:black;
+}
+
+
+
+/* end of line */
